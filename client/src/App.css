@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(16, 15, 15);
+  color: white;
 }
 
 .App-link {
@@ -45,8 +45,8 @@ body {
 }
 
 .bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(3, 64, 105) 50%, rgb(3, 64, 105) 50%);
+
+  background-color:#09f;         
   bottom: 0;
   left: -50%;
   opacity: 0.5;
@@ -56,10 +56,17 @@ body {
   z-index: -1;
 }
 
+/* .bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
 
+.bg3 {
+  animation-duration: 5s;
+} */
 
 .content {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.25em;
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
@@ -106,7 +113,7 @@ header .overlay {
   width: 100%;
   height: 100%;
   padding: 50px;
-  color: #151515;
+  color: #fff;
   text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 }
@@ -129,7 +136,7 @@ p {
   background: #f44336;
   width: 70px;
   height: 45px;
-  color: rgb(15, 15, 15);
+  color: white;
   border: none;
   border-radius: 4px;
   font-size: 13px;
