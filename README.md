@@ -97,9 +97,6 @@ By leveraging **Ethereum blockchain**, **MetaMask authentication**, and **decent
 
 ---
 
-## **Demo**
-
-> *(Optional: Add a live link, demo video, or screenshots here)*
 
 ---
 
